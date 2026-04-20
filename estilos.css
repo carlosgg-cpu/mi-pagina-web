@@ -1,0 +1,55 @@
+
+body {
+    text-decoration: dotted;/* color del texto */
+    color: rgb(1, 17, 4);
+
+}
+h2 {/* CAMBIAR LETRA A EL TEXTO DE  BIENVENIDA */
+    color: rgb(217, 240, 217);
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+ h3 {
+    color: rgba(229, 236, 229, 0.938);
+    text-align: center;
+    font-family: 'arial', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+p {
+    font-size: 18px;
+}
+/* CAMBIAR LETRA DE SUBTÍTULOS */
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+/* ESTILO SOLO PARA ESTE PÁRRAFO */
+
+
+
+}
+.alimentacion {
+    font-family: 'Verdana', 'Franklin Gothic Medium', 
+    'Arial Narrow', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif; /* tipo de letra */
+    color: rgba(243, 10, 49, 0.986);                   /* color */
+    font-size: 20px;                   /* tamaño */
+}
+/* ESTILO SOLO PARA EL MENSAJE FINAL */
+.mensaje-final {
+    font-family: 'Georgia', 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* tipo de letra */
+    color: rgb(0, 14, 0);              /* color */
+    font-size: 18px;               /* tamaño */
+    text-align: center;            /* centrado */
+}
+
+
+/* ESTILO DEL AUTOR  color y letra
+*/
+.autor {
+    font-family: 'Courier New', monospace; /* tipo de letra */
+    color: rgb(248, 245, 245);                           /* color */
+    text-align: center;                    /* centrado */
+    font-size: 14px;                       /* tamaño */
+}
