@@ -1,0 +1,149 @@
+/* Color de fondo general (un gris verdoso muy sutil y elegante) */
+body {
+    background-color: #b9ebb9; 
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #2b026b; /* Color de texto principal */
+}
+
+/* El contenedor del Acuyo como una "tarjeta" profesional */
+.contenido-planta {
+    background-color: #0030182c; /* Blanco puro para el contenido */
+    max-width: 900px;
+    margin: 60px auto; /* Espacio arriba y abajo */
+    padding: 50px;
+    border-radius: 8px; /* Bordes ligeramente redondeados (más moderno que muy redondos) */
+    
+    /* Sombra muy suave y difuminada */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
+    
+    /* Línea decorativa superior que da identidad */
+    border-top: 5px solid #2d5a27; 
+}
+
+/* Estilo para los títulos */
+h1, h2, h3 {
+    color: #1b3d17; /* Un verde más oscuro y serio */
+    letter-spacing: -0.5px; /* Títulos más compactos y modernos */
+}
+
+/* Estilo para la imagen centrada */
+.foto-planta {
+    display: block;
+    margin: 0 auto 40px auto;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 4px; /* Bordes menos redondeados para verse más "editorial" */
+    filter: sepia(10%) contrast(105%); /* Efecto visual sutil de naturaleza */
+}
+
+/* Estilo para el botón "Volver" */
+.boton-leer {
+    display: inline-block;
+    background-color: #2d5a27;
+    color: #ffffff;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.boton-leer:hover {
+    background-color: #3e7a36;
+}
+/* Contenedor principal */
+.contenedor-articulo {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #0ee231;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* Encabezado */
+.encabezado-planta {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.encabezado-planta h1 {
+    color: #160caa;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.nombre-cientifico {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #8eb057;
+    display: block;
+}
+
+.subtitulo {
+    color: #12d372;
+    font-style: italic;
+}
+
+/* Distribución en dos columnas */
+.detalle-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr; 
+    gap: 40px;
+    align-items: center;   /* Centra verticalmente respecto al texto */
+    justify-items: center; /* Centra horizontalmente el contenido de las columnas */
+    margin-bottom: 40px;
+}
+
+/* Texto */
+.texto-informativo h2, .texto-informativo h3 {
+    color: #2d5a27;
+    margin-top: 20px;
+}
+
+.texto-informativo p {
+    line-height: 1.6;
+    color: #b80a0a;
+}
+
+.lista-usos {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.nota-curiosa {
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-left: 5px solid #2d5a27;
+    margin-top: 25px;
+    font-size: 0.9rem;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Botón Volver */
+.btn-volver {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #2d5a27;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-volver:hover {
+    background: #8eb057;
+    transform: scale(1.05);
+}
+
+/* Responsive: Una sola columna en celulares */
+@media (max-width: 768px) {
+    .detalle-contenido {
+        grid-template-columns: 1fr;
+    }
+    
+    .encabezado-planta h1 {
+        font-size: 2rem;
+    }
+}
